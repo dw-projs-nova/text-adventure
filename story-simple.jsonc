@@ -1,0 +1,48 @@
+{
+  "start": "first_room",
+  "paths": {
+    "first_room": {
+      "text": "You are in a plain room with two doors. What do you do?",
+      "choices": [
+        {
+          "label": "Go through the left door",
+          "next": "room"
+        },
+        {
+          "label": "Go through the right door",
+          "next": "room"
+        }
+      ]
+    },
+    "room": {
+      "text": "You are in a plain room with two doors. What do you do?",
+      "choices": [
+        {
+          "label": "Go through the left door",
+          "next": "room"
+        },
+        {
+          "label": "Go through the right door",
+          "next": "room"
+        },
+        {
+          "label": "Turn around and face the wall",
+          "next": "wall"
+        }
+      ]
+    },
+    "wall": {
+      "text": "You are facing a wall. Would you like to turn around?",
+      "choices": [
+        {
+          "label": "Turn around and go back to the doors",
+          "next": "room"
+        },
+        {
+          "label": "Keep facing the wall",
+          "next": "wall"
+        }
+      ]
+    }
+  }
+}
