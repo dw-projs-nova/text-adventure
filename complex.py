@@ -1,4 +1,4 @@
-"""A tiny text adventure driven by story-simple.jsonc."""
+"""Do not grade! Entirely generated with AI just as an experiment."""
 
 import shutil
 import sys
